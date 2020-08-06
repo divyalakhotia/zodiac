@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="January : Garnet"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/garnet" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Those who are born in the month of January are lucky enough to have one of the brightest and most colourful birthstones attached to their birth month, depicting their vibrant personalities. The garnet is the stone that we use today to signify our belonging to the month of January. This stone has already gained quite some significance from ancient times and it is still one that makes a statement when it is worn. It is fitting that a child born at the beginning of the year is adorned with garnets to bedazzle him with hope for the rest of the month to follow."
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="February :Amethyst"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/amethyst"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Traditionally the Amethyst birthstone is associated with a number of different properties, a few of which may include stability, peace, courage, balance, sincerity, inner strength and calm disposition. It is also believed that the February birthstone is known to have tremendous healing properties which may help a great deal against removing the symptoms of headaches, addictions, arthritis, insomnia, circulatory system, pain relief, and general healing"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="March : Aquamarine"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/aquamarine"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="As evident from the name, the name is derived from Latin language in which Aqua means water and marine means the sea. The gemstone has been known to be the best for sailors protecting them against all sorts of mishaps. Because of the serene color that the gemstone has to offer, it promotes calmness and peace in the beholder."
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="April : Diamond"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/diamond1"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Diamonds symbolize purity, eternal love, and faith. It is the ultimate birthstone because it has much strength and it is also the hardest element that can be found in nature. Diamond is made of pure carbon, much like graphite of coal. It is the special way the Carbon atoms are arranged that gives life to a Diamond. It is amazing how something of as being black and dark such as coal can turn into a beautiful Diamond with the forces of nature."
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="May : Emerald"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/emerald"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emeralds were believed to be able to give people the ability to see the future when the stone was placed under their tongue. Emeralds were believed to hold special powers that protected the wearer from evil spells. It was thought that wearing an emerald could help show the wearer whether their lover’s oath was true or false. Emeralds were meant to give their wearers the power of eloquent speech."
+                android:textColor="#000000"/>
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="June : Pearl"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/pearl"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ancients from the Middle East believed that pearls were teardrops fallen from heaven. The Chinese fancied that the June birthstone came from the brain of a dragon. Christopher Columbus and his contemporaries thought that mollusks formed pearls from dew drops.The pearl birthstone was also thought to have beneficial properties. In the ancient Sanskrit text the Atharvaveda, pearls were said to bestow long life and prosperity."
+                android:textColor="#000000"/>
+
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="July : Ruby"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <ImageView
+
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/ruby"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Ruby is known as the ‘King of Gemstones’.Unlike diamonds and emeralds, it is incredibly difficult to find large rubies, most of them being small flecks and stones. This is why it is much more valuable than other precious gemstones as its size increases. Only four gems fall into the precious gems category and those are the diamond, the emerald, the sapphire and the ruby."
+                android:textColor="#000000"/>
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="August : Peridot"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <ImageView
+
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/peridot"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In some areas, peridot actually symbolizes something important to the culture. For instance, in Hawaii this gem symbolizes the tears of their goddess Pele, who is their goddess of fire and volcanos. Others from the ancient times believed it symbolized the sun. Some people believe that the peridot brings the person wearing it power and influence. It is also said to bring a wonderful year to whomever is wearing it."
+                android:textColor="#000000"/>
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="September : Sapphire"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <ImageView
+
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/sapphire"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The stone sapphire is said to hold wisdom, power, and faith. You would wear sapphire to protect your from envy and help bring blessings from heaven down upon you.. The sapphire was also popular with royalty as they wanted protection from envy and harm."
+                android:textColor="#000000"/>
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="October : Opal"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <ImageView
+
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/opal"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Opal amplifies traits, whether those traits are good or bad, and brings characteristics to the surface for transformation. It enhances self worth, confidence and self-esteem, and helps you to understand your full potential. It also brings lightness and spontaneity. The stone is said to help stimulate originality and dynamic creativity, encourages an interest in the arts, and aids in accessing one’s true self. "
+                android:textColor="#000000"/>
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="November : Topaz"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <ImageView
+
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/topaz"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pure topaz is colorless, but it can become tinted by impurities to take on any color of the rainbow. Precious topaz ranges in color from brownish orange to yellow and is often mistaken for smoky quartz or citrine quartz, respectively—although quartz and topaz are unrelated minerals. The most prized color is Imperial topaz, which features a vibrant orange hue with pink undertones. Blue topaz, although increasingly abundant in the market, very rarely occurs naturally and is often caused by irradiation treatment."
+                android:textColor="#000000"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="December : Turquoise"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <ImageView
+
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/turquoise"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The turquoise birthstone was thought to possess many beneficial powers, like guaranteeing health and good fortune. From the 13th century on, it was believed to protect the wearer from falling (especially off horses), and would break into several pieces at the approach of disaster. Hindu mystics maintained that seeing a turquoise after beholding the new moon ensured fantastic wealth."
+                android:textColor="#000000"/>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
+
+
+
+

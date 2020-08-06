@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sagittarius"
+    android:orientation="vertical">
+<TextView
+android:id="@+id/textView16"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Saggitarius"
+android:layout_marginLeft="25dp"
+android:layout_marginTop="30dp"
+android:textSize="25dp"
+
+android:textColor="@color/colorPrimary"/>
+<TextView
+android:id="@+id/textView22"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textColor="#000000"
+android:layout_marginTop="20dp"
+android:layout_marginLeft="20dp"
+android:textStyle="bold"
+android:textSize="15dp"
+
+android:text="Element: Fire"
+    />
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textColor="#000000"
+android:layout_marginLeft="20dp"
+android:textSize="15dp"
+android:text="Lucky Colour: Blue"/>
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textColor="#000000"
+android:layout_marginLeft="20dp"
+android:textSize="15dp"
+android:text="Day: Thursday"/>
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textColor="#000000"
+android:layout_marginLeft="20dp"
+android:text="Lucky Numbers: 3, 7, 9, 12, 21"
+android:textSize="15dp"/>
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textColor="#000000"
+android:textSize="15dp"
+android:layout_marginLeft="20dp"
+android:layout_marginRight="20dp"
+android:layout_marginTop="20dp"
+    android:text="Curious and energetic, Sagittarius is one of the biggest travelers among all zodiac signs. Their open mind and philosophical view motivates them to wander around the world in search of the meaning of life.
+
+Sagittarius is extrovert, optimistic and enthusiastic, and likes changes. Sagittarius-born are able to transform their thoughts into concrete actions and they will do anything to achieve their goals.
+
+Like the other fire signs, Sagittarius needs to be constantly in touch with the world to experience as much as possible. Their enthusiasm has no bounds, and therefore people born under the Sagittarius sign possess a great sense of humor and an intense curiosity."
+    />
+
+</LinearLayout>

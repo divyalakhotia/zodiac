@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage"
+
+    android:orientation="vertical"
+    android:background="@drawable/star"
+
+    >
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="200dp"
+
+        android:layout_marginRight="15dp"
+        android:background="@drawable/rounded_button"
+
+
+
+        android:text="ZODIAC"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF" />
+
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_gravity="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="YES/NO TAROTS"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+
+        android:background="@drawable/rounded_button"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="BIRTH STONES"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:background="@drawable/rounded_button"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

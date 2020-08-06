@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fortune</string>
+    <string name="title_activity_zodiac">Zodiac</string>
+    <string name="title_activity_ozodiac">Ozodiac</string>
+</resources>
